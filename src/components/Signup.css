@@ -1,0 +1,38 @@
+.signup{
+    width:50vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.836), 0 6px 20px 0 rgba(0, 0, 0, 0.836);
+    background-color: rgba(8, 20, 114, 0.699);
+}
+.signup>h1{
+    margin-bottom: 20px;
+    color: whitesmoke;
+}
+.signup>form{
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+}
+.signup>form>label{
+    font-size: larger;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+.signup>form>input{
+    width: 35vw;
+    height:45px;
+    border: none;
+    background-color: whitesmoke;
+    margin-bottom: 20px;
+    font-size: larger;
+    font-family: sans-serif;
+}
+.signup>Button{
+    background-color: blue;
+    color: whitesmoke;
+    width:35vw;
+}
